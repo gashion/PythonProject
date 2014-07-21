@@ -3,6 +3,9 @@ Created on 18 Jul 2014
 
 @author: Ji Zhou Gash
 '''
+
+import math
+
 class Point:
     def __init__(self, x=0, y=0):
         self.x = x
@@ -38,3 +41,8 @@ print(p1.__Mul__(p2))
 
 a = [0, 1, 2, 3] 
 print([x*x for x in a if x % 2 == 0])  
+
+i = 1
+for i in range(1, 10):
+    print(math.sqrt(i))
+    i = i + 1
